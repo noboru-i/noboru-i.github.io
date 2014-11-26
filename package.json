@@ -1,0 +1,25 @@
+{
+  "name": "noboru-i.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/noboru-i/noboru-i.github.io.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/noboru-i/noboru-i.github.io/issues"
+  },
+  "homepage": "https://github.com/noboru-i/noboru-i.github.io",
+  "devDependencies": {
+    "bower": "^1.3.12",
+    "browser-sync": "^1.7.1",
+    "coffee-script": "^1.8.0",
+    "gulp": "^3.8.10"
+  }
+}
