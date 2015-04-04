@@ -1,8 +1,12 @@
-gulp        = require 'gulp'
-browserSync = require 'browser-sync'
+gulp = require 'gulp'
+runSequence = require 'run-sequence'
+requireDir = require 'require-dir'
 
-gulp.task 'serve', ->
-  browserSync({
-    notify: false,
-    server: ['.']
-  })
+dir = requireDir './gulp/task'
+
+gulp.task 'default', (callback) ->
+  runSequence(
+    'clean',
+    'jade',
+    callback
+    )
