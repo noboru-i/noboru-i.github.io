@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
+    "test": "exit 0"
   },
   "license": "MIT",
   "devDependencies": {
