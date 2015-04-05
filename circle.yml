@@ -8,13 +8,4 @@ deployment:
   master:
     branch: src
     commands:
-      - npm run build
-      - git config --global user.email ishikura.noboru@gmail.com
-      - git config --global user.name "CircleCI"
-      - mkdir $CIRCLE_ARTIFACTS/public
-      - cp public/* $CIRCLE_ARTIFACTS/public/
-      - rm -rf *
-      - cp $CIRCLE_ARTIFACTS/public/* .
-      - git add --force .
-      - git commit -m "Release $CIRCLE_BUILD_NUM"
-      - git push origin $CIRCLE_BRANCH:master
+      - sh deploy.sh
