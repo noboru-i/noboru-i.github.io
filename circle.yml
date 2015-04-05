@@ -8,4 +8,4 @@ deployment:
   master:
     branch: src
     commands:
-      - sh deploy.sh
+      - sh script/deploy.sh
