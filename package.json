@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "test": "exit 0"
+    "test": "exit 0",
+    "build": "gulp"
   },
   "license": "MIT",
   "devDependencies": {
