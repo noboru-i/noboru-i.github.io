@@ -12,4 +12,4 @@ git remote add origin git@github.com:$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_RE
 
 git add --force .
 git commit -m "Release $CIRCLE_BUILD_NUM"
-git push -f origin $CIRCLE_BRANCH:master
+git push -f origin master:master
