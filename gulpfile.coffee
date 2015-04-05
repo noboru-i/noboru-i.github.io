@@ -7,6 +7,6 @@ dir = requireDir './gulp/task'
 gulp.task 'default', (callback) ->
   runSequence(
     'clean',
-    'jade',
+    ['jade', 'stylus', 'copy'],
     callback
     )

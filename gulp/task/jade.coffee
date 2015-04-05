@@ -6,5 +6,5 @@ gulp.task 'jade', ->
   gulp.src ["#{path.src.jade}/**/!(_)*.jade"]
     .pipe jade
       basedir: path.src.jade
-      pretty: true
+      pretty: false
     .pipe gulp.dest "#{path.dest.html}"
