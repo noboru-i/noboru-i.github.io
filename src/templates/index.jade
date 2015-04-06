@@ -2,7 +2,8 @@ doctype html
 html(lang="en")
   head
     title noboru-i portfolio
-    link(rel='stylesheet' type='test/css' href='css/main.css')
+    link(rel='stylesheet' href='//cdn.jsdelivr.net/devicons/1.7.0/css/devicons.min.css')
+    link(rel='stylesheet' href='css/main.css')
   body
     .global-header
       img.global-header__profile-image(src="img/profile-image.jpg")
@@ -12,7 +13,9 @@ html(lang="en")
       .skill-set
         h3 Lauguages
         ul
-          li Java
+          li
+            span.devicons.devicons-java
+            | Java
           li Ruby
           li JavaScript
           li Objective-C
