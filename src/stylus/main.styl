@@ -45,9 +45,9 @@ body
     text-align center
     margin 30px auto 0
     color blue
-    transition background-color .1s linear
+    transition background-color .1s ease-out
     &:hover
-      background #fff
+      background white
 
 .private-works
   background blue_900
@@ -59,10 +59,15 @@ body
 .work-box
   display inline-block
   width 300px
-  background white
+  background blue_100
   border-radius 8px
   color blue
   margin 20px 20px
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  transition all .3s ease-out
+  &:hover
+    background white
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
   &__icon
     font-size 24px
     margin 0 8px 0 0
