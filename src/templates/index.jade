@@ -10,21 +10,24 @@ html(lang="en")
       h1.global-header__name Ishikura Noboru
       a.global-header__github(href='https://github.com/noboru-i/noboru-i.github.io' target='_blank') View on GitHub
     .private-works
-      h2 Private Works
-      ul
+      h2.private-works__title Private Works
+      ul.private-works__contentes
         - var PRIVATE_WORKS = [];
-        - PRIVATE_WORKS.push({name: '詰め共円', icon: 'devicons-android', link: 'https://play.google.com/store/apps/details?id=hm.orz.chaos114.android.tumekyouen', image: 'img/private_works/tumekyouen_android.png'});
-        - PRIVATE_WORKS.push({name: 'TetherSetting - 無料のテザリングアプリ -', icon: 'devicons-android', link: 'https://play.google.com/store/apps/details?id=hm.orz.chaos114.android.tethersetting', image: 'img/private_works/tethersetting.png'});
-        - PRIVATE_WORKS.push({name: 'SlideViewer', icon: 'devicons-android', link: 'https://play.google.com/store/apps/details?id=hm.orz.chaos114.android.slideviewer', image: 'img/private_works/slideviewer.png'});
+        - PRIVATE_WORKS.push({name: '詰め共円', icons: ['devicons-android'], link: 'https://play.google.com/store/apps/details?id=hm.orz.chaos114.android.tumekyouen', image: 'img/private_works/tumekyouen_android.png'});
+        - PRIVATE_WORKS.push({name: 'TetherSetting - 無料のテザリングアプリ -', icons: ['devicons-android'], link: 'https://play.google.com/store/apps/details?id=hm.orz.chaos114.android.tethersetting', image: 'img/private_works/tethersetting.png'});
+        - PRIVATE_WORKS.push({name: 'SlideViewer', icons: ['devicons-android'], link: 'https://play.google.com/store/apps/details?id=hm.orz.chaos114.android.slideviewer', image: 'img/private_works/slideviewer.png'});
+        - PRIVATE_WORKS.push({name: '詰め共円', icons: ['devicons-apple'], link: 'https://itunes.apple.com/jp/app/jieme-gong-yuan/id792426923?mt=8', image: 'img/private_works/tumekyouen_ios.png'});
+        - PRIVATE_WORKS.push({name: '詰め共円', icons: ['devicons-python', 'devicons-angular'], link: 'http://my-android-server.appspot.com/', image: 'img/private_works/tumekyouen_python.png'});
         for val in PRIVATE_WORKS
           li.work-box
             h3.work-box__title
               a(href="#{val.link}" target='_blank')
-                span.work-box__icon.devicons(class="#{val.icon}")
+                for icon in val.icons
+                  span.work-box__icon.devicons(class="#{icon}")
                 | #{val.name}
             .work-box__ss(style="background-image: url(\"#{val.image}\")")
     .skills
-      h2 Skills
+      h2.skills__title Skills
       .skill-set
         h3 Lauguages
         ul
