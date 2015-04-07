@@ -1,13 +1,19 @@
 @import '_reset'
 
 white = #fff
-deep_purple = #673AB7
 blue = #2196F3
-indigo = #3F51B5
-green = #4CAF50
-orange = #FF9800
 grey = #9E9E9E
-blue_grey = #607D8B
+
+blue_50 = #E3F2FD
+blue_100 = #BBDEFB
+blue_200 = #90CAF9
+blue_300 = #64B5F6
+blue_400 = #42A5F5
+blue_500 = blue
+blue_600 = #1E88E5
+blue_700 = #1976D2
+blue_800 = #1565C0
+blue_900 = #0D47A1
 
 body
   background-color #fff
@@ -27,24 +33,24 @@ body
     margin 0 auto
     border-radius 50%
   &__name
-    color indigo
+    color blue
     font-size 32px
     text-align center
     margin 30px 0 0
   &__github
     display inline-block
-    border 2px solid blue_grey
+    border 2px solid blue
     border-radius 8px
     padding 8px 16px
     text-align center
     margin 30px auto 0
-    color blue_grey
+    color blue
     transition background-color .1s linear
     &:hover
       background #fff
 
 .private-works
-  background deep_purple
+  background blue_900
   text-align center
   padding 40px 0
   &>h2
@@ -75,7 +81,7 @@ body
 
 
 .skills
-  background blue
+  background blue_800
   text-align center
   padding 40px 0
   &>h2
@@ -111,14 +117,14 @@ body
       color grey
 
 .company
-  background green
+  background blue_700
   text-align center
   padding 40px 0
   &>h2
     margin 0 0 20px
 
 .sns
-  background orange
+  background blue_600
   text-align center
   padding 40px 0
   &>h2
