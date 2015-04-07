@@ -8,6 +8,21 @@ html(lang="en")
     .global-header
       img.global-header__profile-image(src="img/profile-image.jpg")
       h1.global-header__name Ishikura Noboru
+      a.global-header__github(href='https://github.com/noboru-i/noboru-i.github.io' target='_blank') View on GitHub
+    .private-works
+      h2 Private Works
+      ul
+        - var PRIVATE_WORKS = [];
+        - PRIVATE_WORKS.push({name: '詰め共円', icon: 'devicons-android', link: 'https://play.google.com/store/apps/details?id=hm.orz.chaos114.android.tumekyouen', image: 'img/private_works/tumekyouen_android.png'});
+        - PRIVATE_WORKS.push({name: 'TetherSetting - 無料のテザリングアプリ -', icon: 'devicons-android', link: 'https://play.google.com/store/apps/details?id=hm.orz.chaos114.android.tethersetting', image: 'img/private_works/tethersetting.png'});
+        - PRIVATE_WORKS.push({name: 'SlideViewer', icon: 'devicons-android', link: 'https://play.google.com/store/apps/details?id=hm.orz.chaos114.android.slideviewer', image: 'img/private_works/slideviewer.png'});
+        for val in PRIVATE_WORKS
+          li.work-box
+            h3.work-box__title
+              a(href="#{val.link}" target='_blank')
+                span.work-box__icon.devicons(class="#{val.icon}")
+                | #{val.name}
+            .work-box__ss(style="background-image: url(\"#{val.image}\")")
     .skills
       h2 Skills
       .skill-set

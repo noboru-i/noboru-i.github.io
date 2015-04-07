@@ -1,11 +1,13 @@
 @import '_reset'
 
 white = #fff
+deep_purple = #673AB7
 blue = #2196F3
 indigo = #3F51B5
 green = #4CAF50
 orange = #FF9800
 grey = #9E9E9E
+blue_grey = #607D8B
 
 body
   background-color #fff
@@ -17,6 +19,7 @@ body
   padding 60px 0
   background url('../img/background.jpg') center center no-repeat
   background-size cover
+  text-align center
   &__profile-image
     width 100px
     height 100px
@@ -28,6 +31,48 @@ body
     font-size 32px
     text-align center
     margin 30px 0 0
+  &__github
+    display inline-block
+    border 2px solid blue_grey
+    border-radius 8px
+    padding 8px 16px
+    text-align center
+    margin 30px auto 0
+    color blue_grey
+    transition background-color .1s linear
+    &:hover
+      background #fff
+
+.private-works
+  background deep_purple
+  text-align center
+  padding 40px 0
+  &>h2
+    font-size 48px
+
+.work-box
+  display inline-block
+  width 300px
+  background white
+  border-radius 8px
+  color blue
+  margin 20px 20px
+  &__icon
+    font-size 24px
+    margin 0 8px 0 0
+  &__title
+    display block
+    color grey
+    margin 8px
+    text-overflow ellipsis
+    white-space nowrap
+    overflow hidden
+  &__ss
+    width 100%
+    height 300px
+    background-size cover
+    border-radius 0 0 8px 8px
+
 
 .skills
   background blue
