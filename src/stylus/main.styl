@@ -5,6 +5,7 @@ blue = #2196F3
 indigo = #3F51B5
 green = #4CAF50
 orange = #FF9800
+grey = #9E9E9E
 
 body
   background-color #fff
@@ -40,11 +41,29 @@ body
     text-decoration underline
     display block
     text-align center
-  & li
-    display inline-block
-    margin 0 40px
+
+.skill-box
+  display inline-block
+  width 300px
+  background white
+  border-radius 8px
+  color blue
+  margin 20px 20px
+  padding 8px
   & .devicons
+    display inline-block
     font-size 32px
+    color grey
+    margin 0 8px 0 0
+  &__title
+    display inline
+    color grey
+  &__percent
+    font-size 48px
+    &:after
+      content '%'
+      font-size 16px
+      color grey
 
 .company
   background green

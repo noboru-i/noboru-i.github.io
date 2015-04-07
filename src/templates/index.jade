@@ -13,17 +13,22 @@ html(lang="en")
       .skill-set
         h3 Lauguages
         ul
-          li
-            span.devicons.devicons-java
-            | Java
-          li Ruby
-          li JavaScript
-          li Objective-C
-          li HTML
-          li CSS
-          li Python
-          li PHP
-          li SQL
+          - var LANGUAGES = [];
+          - LANGUAGES.push({name: 'Java', icon: 'devicons-java', percent: 80});
+          - LANGUAGES.push({name: 'Ruby', icon: 'devicons-ruby', percent: 70});
+          - LANGUAGES.push({name: 'JavaScript', icon: 'devicons-javascript', percent: 60});
+          - LANGUAGES.push({name: 'Objective-C', icon: 'devicons-apple', percent: 60});
+          - LANGUAGES.push({name: 'HTML', icon: 'devicons-html5', percent: 50});
+          - LANGUAGES.push({name: 'CSS', icon: 'devicons-css3', percent: 50});
+          - LANGUAGES.push({name: 'Python', icon: 'devicons-python', percent: 30});
+          - LANGUAGES.push({name: 'PHP', icon: 'devicons-php', percent: 60});
+          - LANGUAGES.push({name: 'SQL', icon: 'devicons-mysql', percent: 40});
+          for val in LANGUAGES
+            li.skill-box
+              h4.skill-box__title
+                span.devicons(class="#{val.icon}")
+                | #{val.name}
+              .skill-box__percent #{val.percent}
       .skill-set
         h3 Platforms
         ul
