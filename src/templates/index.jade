@@ -13,11 +13,15 @@ html(lang="en")
       h2.private-works__title Private Works
       ul.private-works__contentes
         - var PRIVATE_WORKS = [];
-        - PRIVATE_WORKS.push({name: '詰め共円', icons: ['devicons-android'], link: 'https://play.google.com/store/apps/details?id=hm.orz.chaos114.android.tumekyouen', image: 'img/private_works/tumekyouen_android.png'});
-        - PRIVATE_WORKS.push({name: 'TetherSetting - 無料のテザリングアプリ -', icons: ['devicons-android'], link: 'https://play.google.com/store/apps/details?id=hm.orz.chaos114.android.tethersetting', image: 'img/private_works/tethersetting.png'});
         - PRIVATE_WORKS.push({name: 'SlideViewer', icons: ['devicons-android'], link: 'https://play.google.com/store/apps/details?id=hm.orz.chaos114.android.slideviewer', image: 'img/private_works/slideviewer.png'});
+        - PRIVATE_WORKS.push({name: 'RocketSS', icons: ['devicons-java', 'devicons-coffeescript'], link: 'http://rsspocket.appspot.com/', image: 'img/private_works/rocketss.png'});
+        - PRIVATE_WORKS.push({name: 'Read It Now', icons: ['devicons-android'], link: 'https://play.google.com/store/apps/details?id=hm.orz.chaos114.android.readitnow', image: 'img/private_works/readitnow.png'});
         - PRIVATE_WORKS.push({name: '詰め共円', icons: ['devicons-apple'], link: 'https://itunes.apple.com/jp/app/jieme-gong-yuan/id792426923?mt=8', image: 'img/private_works/tumekyouen_ios.png'});
-        - PRIVATE_WORKS.push({name: '詰め共円', icons: ['devicons-python', 'devicons-angular'], link: 'http://my-android-server.appspot.com/', image: 'img/private_works/tumekyouen_python.png'});
+        - PRIVATE_WORKS.push({name: 'TetherSetting - 無料のテザリングアプリ -', icons: ['devicons-android'], link: 'https://play.google.com/store/apps/details?id=hm.orz.chaos114.android.tethersetting', image: 'img/private_works/tethersetting.png'});
+        - PRIVATE_WORKS.push({name: '詰め共円', icons: ['devicons-python', 'devicons-angular', 'devicons-coffeescript'], link: 'http://my-android-server.appspot.com/', image: 'img/private_works/tumekyouen_python.png'});
+        - PRIVATE_WORKS.push({name: '詰め共円', icons: ['devicons-android'], link: 'https://play.google.com/store/apps/details?id=hm.orz.chaos114.android.tumekyouen', image: 'img/private_works/tumekyouen_android.png'});
+        - PRIVATE_WORKS.push({name: '共円チェッカー', icons: ['devicons-android'], link: 'https://play.google.com/store/apps/details?id=hm.orz.chaos114.android.kyouenchecker', image: 'img/private_works/kyouenchecker.png'});
+        - PRIVATE_WORKS.push({name: '色揃えるやつ', icons: ['devicons-android'], link: 'https://play.google.com/store/apps/details?id=hm.orz.chaos114.android.irokae', image: 'img/private_works/irokae.png'});
         for val in PRIVATE_WORKS
           li.work-box
             a(href="#{val.link}" target='_blank')
@@ -40,7 +44,10 @@ html(lang="en")
           - LANGUAGES.push({name: 'CSS', icon: 'devicons-css3', percent: 50});
           - LANGUAGES.push({name: 'Python', icon: 'devicons-python', percent: 30});
           - LANGUAGES.push({name: 'PHP', icon: 'devicons-php', percent: 60});
-          - LANGUAGES.push({name: 'SQL', icon: 'devicons-mysql', percent: 40});
+          - LANGUAGES.push({name: 'SQL', icon: 'devicons-database', percent: 40});
+          - LANGUAGES.push({name: 'CoffeeScript', icon: 'devicons-coffeescript', percent: 50});
+          - LANGUAGES.push({name: 'Sass', icon: 'devicons-sass', percent: 40});
+          - LANGUAGES.push({name: 'Stylus', icon: 'devicons-stylus', percent: 40});
           for val in LANGUAGES
             li.skill-box
               h4.skill-box__title
@@ -48,23 +55,53 @@ html(lang="en")
                 | #{val.name}
               .skill-box__percent #{val.percent}
       .skill-set
-        h3 Platforms
-        ul
-          li Linux
-          li Android
-          li iOS
-      .skill-set
         h3 Frameworks
         ul
-          li Ruby on Rails
-          li Spring
-          li Android SDK
-          li Cocoa
+          - var FRAMEWORKS = [];
+          - FRAMEWORKS.push({name: 'Ruby on Rails', icon: 'devicons-ruby_on_rails', percent: 70});
+          - FRAMEWORKS.push({name: 'Spring', icon: 'devicons-java', percent: 40});
+          - FRAMEWORKS.push({name: 'CodeIgniter', icon: 'devicons-codeigniter', percent: 60});
+          - FRAMEWORKS.push({name: 'Android SDK', icon: 'devicons-android', percent: 60});
+          - FRAMEWORKS.push({name: 'Cocoa', icon: 'devicons-apple', percent: 50});
+          - FRAMEWORKS.push({name: 'AngularJS 1.x', icon: 'devicons-angular', percent: 40});
+          - FRAMEWORKS.push({name: 'Backbone.js', icon: 'devicons-backbone', percent: 20});
+          for val in FRAMEWORKS
+            li.skill-box
+              h4.skill-box__title
+                span.devicons(class="#{val.icon}")
+                | #{val.name}
+              .skill-box__percent #{val.percent}
       .skill-set
         h3 Middlewares
         ul
-          li MySQL
-          li Redis
+          - var MIDDLEWARE = [];
+          - MIDDLEWARE.push({name: 'MySQL', icon: 'devicons-mysql', percent: 40});
+          - MIDDLEWARE.push({name: 'PostgreSQL', icon: 'devicons-postgresql', percent: 20});
+          - MIDDLEWARE.push({name: 'Redis', icon: 'devicons-redis', percent: 40});
+          - MIDDLEWARE.push({name: 'NGINX', icon: 'devicons-nginx', percent: 40});
+          for val in MIDDLEWARE
+            li.skill-box
+              h4.skill-box__title
+                span.devicons(class="#{val.icon}")
+                | #{val.name}
+              .skill-box__percent #{val.percent}
+      .skill-set
+        h3 OTHER
+        ul
+          - var OTHER = [];
+          - OTHER.push({name: 'Git', icon: 'devicons-git', percent: 90});
+          - OTHER.push({name: 'GitHub', icon: 'devicons-github_badge', percent: 80});
+          - OTHER.push({name: 'Grunt', icon: 'devicons-grunt', percent: 60});
+          - OTHER.push({name: 'gulp.js', icon: 'devicons-gulp', percent: 60});
+          - OTHER.push({name: 'Bower', icon: 'devicons-bower', percent: 50});
+          - OTHER.push({name: 'Jenkins', icon: 'devicons-jenkins', percent: 50});
+          - OTHER.push({name: 'Travis CI', icon: 'devicons-travis', percent: 30});
+          for val in OTHER
+            li.skill-box
+              h4.skill-box__title
+                span.devicons(class="#{val.icon}")
+                | #{val.name}
+              .skill-box__percent #{val.percent}
     .company
       h2 Company
       h3
