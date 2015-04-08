@@ -20,12 +20,12 @@ html(lang="en")
         - PRIVATE_WORKS.push({name: '詰め共円', icons: ['devicons-python', 'devicons-angular'], link: 'http://my-android-server.appspot.com/', image: 'img/private_works/tumekyouen_python.png'});
         for val in PRIVATE_WORKS
           li.work-box
-            h3.work-box__title
-              a(href="#{val.link}" target='_blank')
+            a(href="#{val.link}" target='_blank')
+              h3.work-box__title
                 for icon in val.icons
                   span.work-box__icon.devicons(class="#{icon}")
                 | #{val.name}
-            .work-box__ss(style="background-image: url(\"#{val.image}\")")
+              .work-box__ss(style="background-image: url(\"#{val.image}\")")
     .skills
       h2.skills__title Skills
       .skill-set
