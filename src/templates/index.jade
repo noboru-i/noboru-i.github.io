@@ -3,6 +3,7 @@ html(lang="en")
   head
     title noboru-i portfolio
     link(rel='stylesheet' href='//cdn.jsdelivr.net/devicons/1.7.0/css/devicons.min.css')
+    link(rel='stylesheet' href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css')
     link(rel='stylesheet' href='css/main.css')
   body
     .global-header
@@ -30,6 +31,39 @@ html(lang="en")
                   span.work-box__icon.devicons(class="#{icon}")
                 | #{val.name}
               .work-box__ss(style="background-image: url(\"#{val.image}\")")
+    .sns
+      h2.sns__title SNS / Posts
+      ul
+        li.sns-box
+          a.sns-box__link(href='https://github.com/noboru-i' target='_blank')
+            span.sns-box__text
+              i.sns-box__icon.fa.fa-github-square
+              br
+              | noboru-i
+        li.sns-box
+          a.sns-box__link(href='https://twitter.com/noboru_i' target='_blank')
+            span.sns-box__text
+              i.sns-box__icon.fa.fa-twitter-square
+              br
+              | noboru_i
+        li.sns-box
+          a.sns-box__link(href='https://www.facebook.com/noboru.ishikura' target='_blank')
+            span.sns-box__text
+              i.sns-box__icon.fa.fa-facebook-square
+              br
+              | noboru.ishikura
+        li.sns-box
+          a.sns-box__link(href='http://noboru.hatenablog.jp/' target='_blank')
+            span.sns-box__text
+              span.sns-box__icon Hatena
+              br
+              | noboru_i
+        li.sns-box
+          a.sns-box__link(href='http://qiita.com/noboru_i' target='_blank')
+            span.sns-box__text
+              span.sns-box__icon Qiita
+              br
+              | noboru_i
     .skills
       h2.skills__title Skills
       .skill-set
@@ -103,23 +137,7 @@ html(lang="en")
                 | #{val.name}
               .skill-box__percent #{val.percent}
     .company
-      h2 Company
+      h2.company__title Company
       h3
         a(href='http://monstar-lab.com/' target='_blank') 株式会社 モンスター・ラボ (Monstar Lab, Inc.)
       | サービス開発事業部 テクノロジスト
-    .sns
-      h2 SNS
-      ul
-        li
-          a(href='https://github.com/noboru-i' target='_blank')
-            span.devicons.devicons-github_badge
-            | noboru-i
-        li
-          a(href='https://twitter.com/noboru_i' target='_blank')
-            | noboru_i
-        li
-          a(href='https://www.facebook.com/noboru.ishikura' target='_blank')
-            | noboru.ishikura
-        li
-          a(href='http://qiita.com/noboru_i' target='_blank')
-            | noboru_i
