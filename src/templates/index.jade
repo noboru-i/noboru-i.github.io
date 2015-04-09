@@ -34,7 +34,7 @@ html(lang="ja")
         - PRIVATE_WORKS.push({name: '色揃えるやつ', icons: ['devicons-android'], link: 'https://play.google.com/store/apps/details?id=hm.orz.chaos114.android.irokae', image: 'img/private_works/irokae.png'});
         for val in PRIVATE_WORKS
           li.work-box
-            a(href="#{val.link}" target='_blank')
+            a.work-box__link(href="#{val.link}" target='_blank')
               h3.work-box__title
                 for icon in val.icons
                   span.work-box__icon.devicons(class="#{icon}")
