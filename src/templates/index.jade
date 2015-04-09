@@ -132,17 +132,18 @@ html(lang="ja")
         h3 OTHER
         ul
           - var OTHER = [];
-          - OTHER.push({name: 'Git', icon: 'devicons-git', percent: 90});
-          - OTHER.push({name: 'GitHub', icon: 'devicons-github_badge', percent: 80});
-          - OTHER.push({name: 'Grunt', icon: 'devicons-grunt', percent: 60});
-          - OTHER.push({name: 'gulp.js', icon: 'devicons-gulp', percent: 60});
-          - OTHER.push({name: 'Bower', icon: 'devicons-bower', percent: 50});
-          - OTHER.push({name: 'Jenkins', icon: 'devicons-jenkins', percent: 50});
-          - OTHER.push({name: 'Travis CI', icon: 'devicons-travis', percent: 30});
+          - OTHER.push({name: 'Git', icon: 'devicons devicons-git', percent: 90});
+          - OTHER.push({name: 'GitHub', icon: 'devicons devicons-github_badge', percent: 80});
+          - OTHER.push({name: 'Grunt', icon: 'devicons devicons-grunt', percent: 60});
+          - OTHER.push({name: 'gulp.js', icon: 'devicons devicons-gulp', percent: 60});
+          - OTHER.push({name: 'Bower', icon: 'devicons devicons-bower', percent: 50});
+          - OTHER.push({name: 'Jenkins', icon: 'devicons devicons-jenkins', percent: 50});
+          - OTHER.push({name: 'Travis CI', icon: 'devicons devicons-travis', percent: 30});
+          - OTHER.push({name: 'Design', icon: 'fa fa-picture-o', percent: 2});
           for val in OTHER
             li.skill-box
               h4.skill-box__title
-                span.devicons(class="#{val.icon}")
+                span.skill-box__icon(class="#{val.icon}")
                 | #{val.name}
               .skill-box__percent #{val.percent}
     .company
