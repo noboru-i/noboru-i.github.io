@@ -4,7 +4,7 @@ git config --global user.email ishikura.noboru@gmail.com
 git config --global user.name "CircleCI"
 
 mkdir $CIRCLE_ARTIFACTS/public
-cp public/* $CIRCLE_ARTIFACTS/public/
+cp -r public/* $CIRCLE_ARTIFACTS/public/
 
 cd public
 git init
