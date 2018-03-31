@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    url: 'https://lumen.netlify.com',
-    title: 'Blog by John Doe',
-    subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    url: 'https://noboru-i.github.io/',
+    title: 'Blog by noboru-i',
+    subtitle: 'noboru-iのメモ的な何かです。',
     copyright: '© All rights reserved.',
     disqusShortname: '',
     menu: [
@@ -20,11 +20,12 @@ module.exports = {
       }
     ],
     author: {
-      name: 'John Doe',
+      name: 'noboru-i',
       email: '#',
       telegram: '#',
-      twitter: '#',
-      github: '#',
+      twitter: 'noboru_i',
+      github: 'noboru-i',
+      facebook: 'noboru.ishikura',
       rss: '#',
       vk: '#'
     }
@@ -117,7 +118,7 @@ module.exports = {
     'gatsby-plugin-sharp',
     {
       resolve: 'gatsby-plugin-google-analytics',
-      options: { trackingId: 'UA-73379983-2' }
+      options: { trackingId: 'UA-61693970-1' }
     },
     {
       resolve: `gatsby-plugin-google-fonts`,
