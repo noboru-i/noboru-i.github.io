@@ -21,13 +21,10 @@ module.exports = {
     ],
     author: {
       name: 'noboru-i',
-      email: '#',
-      telegram: '#',
       twitter: 'noboru_i',
       github: 'noboru-i',
       facebook: 'noboru.ishikura',
-      rss: '#',
-      vk: '#'
+      rss: '#'
     }
   },
   plugins: [
