@@ -1,13 +1,13 @@
 ---
-title: Weekly news at <%= published_date %>
+title: Weekly news at <%= publishedDate %>
 date: "2018-04-07T23:46:37.121Z"
 layout: post
 draft: false
-path: "/posts/weekly-news/<%= published_date %>/"
+path: "/posts/weekly-news/<%= publishedDate %>/"
 category: "Weekly news"
 tags:<% _.forEach(tags, function(item) { %>
   - "<%= item %>"<% }) %>
-description: "<%= published_date %>のウィークリーニュース"
+description: "<%= publishedDate %>のウィークリーニュース"
 ---
 
 <% _.forEach(list, function(item) { %>
