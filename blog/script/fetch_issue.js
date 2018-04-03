@@ -29,7 +29,7 @@ async function loadFile() {
 }
 
 async function fetchIssue() {
-  const result = await octokit.issues.getForRepo({owner: githubOwner, repo: githubRepo});
+  const result = await octokit.issues.getForRepo({owner: githubOwner, repo: githubRepo, milestone: 'none'});
   const issueList = result.data.map((issue) => {
     return convertInfo(issue);
   });
@@ -53,6 +53,10 @@ async function updateIssues(issueList) {
 
 async function convert() {
   const [template, issueList] = await Promise.all([loadFile(), fetchIssue()]);
+  if (issueList.length == 0) {
+    console.log('issue is nothing.');
+    return;
+  }
   const compiled = _.template(template);
   const markdown = compiled({
     publishedDate: publishedDate.format('YYYY/MM/DD'),
