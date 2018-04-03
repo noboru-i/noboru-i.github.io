@@ -5,6 +5,9 @@ const fs = require('fs');
 const path = require("path");
 const moment = require('moment');
 
+const githubOwner = 'noboru-i';
+const githubRepo = 'noboru-i.github.io';
+
 const publishedDate = moment();
 const outputDir = path.join('src/pages/articles', publishedDate.format('YYYY'));
 const outputFile = path.join(outputDir, publishedDate.format('YYYY-MM-DD') + '.md');
@@ -15,17 +18,37 @@ if (!fs.existsSync(outputDir)) {
   fs.mkdirSync(outputDir);
 }
 
+octokit.authenticate({
+  type: 'oauth',
+  token: process.env.GITHUB_TOKEN
+});
+
 async function loadFile() {
   const readFile = util.promisify(fs.readFile);
   return await readFile('script/md_template.md.tpl', 'utf8');
 }
 
 async function fetchIssue() {
-  const result = await octokit.issues.getForRepo({owner: "noboru-i", repo: "noboru-i.github.io"});
+  const result = await octokit.issues.getForRepo({owner: githubOwner, repo: githubRepo});
   const issueList = result.data.map((issue) => {
     return convertInfo(issue);
   });
   return issueList;
+}
+
+async function updateIssue(issue, milestone) {
+  return octokit.issues.edit({owner: githubOwner, repo: githubRepo, number: issue.number, milestone: milestone.number});
+}
+
+async function updateIssues(issueList) {
+  const milestoneResponse = await octokit.issues.createMilestone({owner: githubOwner, repo: githubRepo, title: publishedDate.format('YYYYMMDD'), due_on: publishedDate.format()});
+  const milestone = milestoneResponse.data;
+  console.log('milestone is created. ' + milestone.url);
+  const requests = issueList.map((issue) => {
+    return updateIssue(issue, milestone);
+  });
+  await Promise.all(requests);
+  console.log('issues is updated. ' + issueList.map(issue => { return issue.number }));
 }
 
 async function convert() {
@@ -37,15 +60,16 @@ async function convert() {
     list: issueList
   });
 
-  await fs.writeFile(outputFile, markdown);
-  console.log("done!!");
+  fs.writeFileSync(outputFile, markdown);
+  console.log('file is written. ' + outputFile);
+  await updateIssues(issueList);
 }
 
 convert();
-// TODO publishedタグ付け
 
 function convertInfo(issue) {
   return {
+    number: issue.number,
     title: issue.title,
     url: getUrl(issue.body),
     content: getContent(issue.body),
