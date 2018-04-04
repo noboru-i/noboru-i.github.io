@@ -1,9 +1,13 @@
 version: 2
+
+defaults: &defaults
+  working_directory: ~/code
+  docker:
+    - image: circleci/node:8.11.1
+
 jobs:
   build:
-    working_directory: ~/code
-    docker:
-      - image: circleci/node:8.11.1
+    <<: *defaults
     steps:
       - checkout
       - restore_cache:
@@ -21,9 +25,7 @@ jobs:
           command: yarn build
 
   deploy:
-    working_directory: ~/code
-    docker:
-      - image: circleci/node:8.11.1
+    <<: *defaults
     steps:
       - checkout
       - restore_cache:
@@ -39,6 +41,24 @@ jobs:
             git config --global user.name "noboru-i"
             yarn deploy
 
+  create_article:
+    <<: *defaults
+    steps:
+      - checkout
+      - restore_cache:
+          key: dependency-cache-{{ checksum "yarn.lock" }}
+      - run:
+          name: Fetch issue and create article
+          command: yarn run fetch_issue
+      - run:
+          name: Push article
+          command: |
+            git config --global user.email "ishikura.noboru@gmail.com"
+            git config --global user.name "noboru-i"
+            git add src/pages/articles/
+            git commit -m 'create article'
+            git push origin src:src
+
 workflows:
   version: 2
   build-and-deploy:
@@ -50,3 +70,20 @@ workflows:
           filters:
             branches:
               only: src
+
+  nightly:
+    triggers:
+      - schedule:
+          cron: "0 17 * * 5" # Saturday 02:00 JST
+          filters:
+            branches:
+              only:
+                - src
+    jobs:
+      - build
+      - create_article:
+          requires:
+            - build
+      - deploy:
+          requires:
+            - create_article
