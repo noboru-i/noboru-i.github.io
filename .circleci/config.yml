@@ -34,7 +34,10 @@ jobs:
 
       - run:
           name: Deploy
-          command: yarn deploy
+          command: |
+            git config --global user.email "ishikura.noboru@gmail.com"
+            git config --global user.name "noboru-i"
+            yarn deploy
 
 workflows:
   version: 2
