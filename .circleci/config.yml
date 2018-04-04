@@ -74,7 +74,7 @@ workflows:
   nightly:
     triggers:
       - schedule:
-          cron: "0 17 * * 5"
+          cron: "0 17 * * 5" # Saturday 02:00 JST
           filters:
             branches:
               only:
