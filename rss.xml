@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by noboru-i]]></title><description><![CDATA[noboru-iのメモ的な何かです。]]></description><link>https://noboru-i.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Wed, 04 Apr 2018 13:52:03 GMT</lastBuildDate><item><title><![CDATA[Weekly news at 2018/04/03]]></title><description><![CDATA[2018/04/03のウィークリーニュース]]></description><link>https://noboru-i.github.io//posts/weekly-news/2018/04/03/</link><guid isPermaLink="false">https://noboru-i.github.io//posts/weekly-news/2018/04/03/</guid><pubDate>Sat, 07 Apr 2018 23:46:37 GMT</pubDate><content:encoded>&lt;h2&gt;関数の話 - ( ꒪⌓꒪) ゆるよろ日記&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;http://yuroyoro.hatenablog.com/entry/2018/04/03/112830&quot;&gt;http://yuroyoro.hatenablog.com/entry/2018/04/03/112830&lt;/a&gt;&lt;/p&gt;
+&lt;ul class=&quot;post-single__tags-list&quot;&gt;
+&lt;/ul&gt;
+&lt;p&gt;実際の業務で使わないとしても、関数型の思想に触れておくことは大事かも。&lt;/p&gt;
+&lt;h2&gt;kotlinでも検出できるCustom Lintを作成してみた - DMM inside&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://inside.dmm.com/entry/2018/04/03/kotlin-custom-lint&quot;&gt;https://inside.dmm.com/entry/2018/04/03/kotlin-custom-lint&lt;/a&gt;&lt;/p&gt;
+&lt;ul class=&quot;post-single__tags-list&quot;&gt;
+  &lt;li class=&quot;post-single__tags-list-item&quot;&gt;
+    &lt;a class=&quot;post-single__tags-list-item-link&quot; href=&quot;/tags/android/&quot;&gt;Android&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;post-single__tags-list-item&quot;&gt;
+    &lt;a class=&quot;post-single__tags-list-item-link&quot; href=&quot;/tags/ci/&quot;&gt;CI&lt;/a&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;いろんな人とチームを組んで開発しようとすると、コードレビュー以前に機械的にチェックしたいものは増えてきますよね。
+また、Android標準のLintの仕組みに追加でき、Android Studio上に出てくるのは良いですね。&lt;/p&gt;
+&lt;p&gt;実装するためのおまじない？準備？はそんなに多くない印象で良いのですが、
+PSIの構造を把握して、チェック処理実装に落とすのが難しそうな印象。&lt;/p&gt;
+&lt;h2&gt;九州商船の「弊社WEB予約サービスに対する不正アクセスに関する最終報告」は全てのエンジニアに読んでほしい - orangeitems’s diary&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.orangeitems.com/entry/2018/04/02/202052&quot;&gt;http://www.orangeitems.com/entry/2018/04/02/202052&lt;/a&gt;&lt;/p&gt;
+&lt;ul class=&quot;post-single__tags-list&quot;&gt;
+  &lt;li class=&quot;post-single__tags-list-item&quot;&gt;
+    &lt;a class=&quot;post-single__tags-list-item-link&quot; href=&quot;/tags/security/&quot;&gt;security&lt;/a&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;・不正アクセスは起こってみるとだいたいが稚拙なところを狙われている。技術的には高いレベルではない場合が多い。いわゆる戸締りを忘れたぐらいなレベル。しかし攻撃者は全部のドアを開けようとしてくるからタチが悪い。ドアを設けないのが一番のセキュリティー対策。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;大事ですよねー。&lt;/p&gt;
+&lt;p&gt;ただ、サービス止めたり、ログが多く出る設定にしたりってのは、サービス特性によっては難しい気がする。
+（そもそも、そのへんの検討すらしてない、ってのはまずいでしょうけど。。）&lt;/p&gt;
+&lt;p&gt;にしても、「社外の専門家により構成される調査委員会を設置」とか、ちゃんとしてる感がすごい。固い系企業？のこういうところは見習わないといけないのかも。&lt;/p&gt;
+&lt;h2&gt;Vueを昔触った後Reactをどっぷり触ってもう一回Vueを触ってReactに戻って得た感想 – 📜inuscript🐶 – Medium&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://medium.com/inuscript/vue-and-react-comparision-6c7cb44f18ba&quot;&gt;https://medium.com/inuscript/vue-and-react-comparision-6c7cb44f18ba&lt;/a&gt;&lt;/p&gt;
+&lt;ul class=&quot;post-single__tags-list&quot;&gt;
+  &lt;li class=&quot;post-single__tags-list-item&quot;&gt;
+    &lt;a class=&quot;post-single__tags-list-item-link&quot; href=&quot;/tags/frontend/&quot;&gt;Frontend&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;post-single__tags-list-item&quot;&gt;
+    &lt;a class=&quot;post-single__tags-list-item-link&quot; href=&quot;/tags/react/&quot;&gt;React&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;post-single__tags-list-item&quot;&gt;
+    &lt;a class=&quot;post-single__tags-list-item-link&quot; href=&quot;/tags/vue.js/&quot;&gt;Vue.js&lt;/a&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;誤解を恐れずに言うと、Reactはsimple寄りで、Vueはeasy寄りというのが近いかなと感じている。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;これがわかりやすいですね。
+React単独で考えると、少ないAPIを覚えるだけで良いけど、結局Reduxとかを使ったりで悩みが出てくる。
+それを超えると、SFCなんかで役割をきれいに分割しつつ、大規模にも耐えやすい。&lt;/p&gt;
+&lt;p&gt;逆にVue.jsは便利なAPIがいろいろあって、そのへんをうまく使っていけば、簡単に構築できる。
+公式のライブラリも充実していて、それを利用するだけである程度のものが作れる。&lt;/p&gt;
+&lt;p&gt;というイメージがあるだけで、ちゃんと実装したことがあまり無いので、ちゃんとやらないとなぁと。
+また、変化の速度も速そうなので、式年遷宮していきつつ、手を動かしていかないと付いていけないですね。&lt;/p&gt;
+&lt;h2&gt;自社コーポレートサイトにサイト内検索を導入しました ｜ Developers.IO&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://dev.classmethod.jp/server-side/elasticsearch/site-search-in-corporate-site/&quot;&gt;https://dev.classmethod.jp/server-side/elasticsearch/site-search-in-corporate-site/&lt;/a&gt;&lt;/p&gt;
+&lt;ul class=&quot;post-single__tags-list&quot;&gt;
+  &lt;li class=&quot;post-single__tags-list-item&quot;&gt;
+    &lt;a class=&quot;post-single__tags-list-item-link&quot; href=&quot;/tags/aws/&quot;&gt;AWS&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;post-single__tags-list-item&quot;&gt;
+    &lt;a class=&quot;post-single__tags-list-item-link&quot; href=&quot;/tags/elasticsearch/&quot;&gt;Elasticsearch&lt;/a&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;“サーチテンプレートによる検索のエンドポイントのみをパブリックに開放”
+ってことが出来るのか。知らなかった。
+フロントから直接ES呼んじゃうってのは、ちょっと不安があるけど、調べてみよう。&lt;/p&gt;
+&lt;h2&gt;Osushiに見るフロントエンドのセキュリティ // Speaker Deck&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://speakerdeck.com/shibe97/osushinijian-ruhurontoendofalsesekiyuritei&quot;&gt;https://speakerdeck.com/shibe97/osushinijian-ruhurontoendofalsesekiyuritei&lt;/a&gt;&lt;/p&gt;
+&lt;ul class=&quot;post-single__tags-list&quot;&gt;
+  &lt;li class=&quot;post-single__tags-list-item&quot;&gt;
+    &lt;a class=&quot;post-single__tags-list-item-link&quot; href=&quot;/tags/frontend/&quot;&gt;Frontend&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;post-single__tags-list-item&quot;&gt;
+    &lt;a class=&quot;post-single__tags-list-item-link&quot; href=&quot;/tags/security/&quot;&gt;security&lt;/a&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;ちゃんとして復活したのがすごい。
+ヘッダの話とか、めんどくさがらずにちゃんとやらないとなー。&lt;/p&gt;
+&lt;h2&gt;2-wayデータバインディングが格段に実装しやすくなったAndroid data-binding 3.1.0 - Qiita&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://qiita.com/YusukeIwaki/items/3fb4e10ac87fa1c7f6ba&quot;&gt;https://qiita.com/YusukeIwaki/items/3fb4e10ac87fa1c7f6ba&lt;/a&gt;&lt;/p&gt;
+&lt;ul class=&quot;post-single__tags-list&quot;&gt;
+  &lt;li class=&quot;post-single__tags-list-item&quot;&gt;
+    &lt;a class=&quot;post-single__tags-list-item-link&quot; href=&quot;/tags/android/&quot;&gt;Android&lt;/a&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;MediatorLiveData が何者か、そのうち調べる。&lt;/p&gt;
+&lt;h2&gt;3/28に公開されたRubyの脆弱性情報についてのポエム的解説 - pixiv inside&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://inside.pixiv.blog/usa/3841&quot;&gt;https://inside.pixiv.blog/usa/3841&lt;/a&gt;&lt;/p&gt;
+&lt;ul class=&quot;post-single__tags-list&quot;&gt;
+  &lt;li class=&quot;post-single__tags-list-item&quot;&gt;
+    &lt;a class=&quot;post-single__tags-list-item-link&quot; href=&quot;/tags/ruby/&quot;&gt;Ruby&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;post-single__tags-list-item&quot;&gt;
+    &lt;a class=&quot;post-single__tags-list-item-link&quot; href=&quot;/tags/脆弱性/&quot;&gt;脆弱性&lt;/a&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;あんまり観測してなかったんですが、脆弱性がいろいろ公開されてたんですね。
+WEBrickのサーバーを迂闊に公開せず、信用できない値をそのまま使わない。ってことですかね。
+兼業でRubyも書く自分にとっても、ゆるい感じで分かりやすくてよかった。&lt;/p&gt;
+&lt;h2&gt;技術的負債のパターンと悪影響・原因・返却方法について考える - $shibayu36-&gt;blog;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.shibayu36.org/entry/2018/03/29/183000&quot;&gt;http://blog.shibayu36.org/entry/2018/03/29/183000&lt;/a&gt;&lt;/p&gt;
+&lt;ul class=&quot;post-single__tags-list&quot;&gt;
+  &lt;li class=&quot;post-single__tags-list-item&quot;&gt;
+    &lt;a class=&quot;post-single__tags-list-item-link&quot; href=&quot;/tags/android/&quot;&gt;Android&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;post-single__tags-list-item&quot;&gt;
+    &lt;a class=&quot;post-single__tags-list-item-link&quot; href=&quot;/tags/設計/&quot;&gt;設計&lt;/a&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;負債と一言に言っちゃうけど、その中にはいろんな選択があって、そこから引き起こされる問題も、その解消方法もちがうよね。
+分類して、対応規模・緊急度を可視化出来れば、機能実装との優先度付けもできそう。
+なるほど。&lt;/p&gt;
+&lt;h2&gt;デザインの実装を解体する技術&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://speakerdeck.com/operando/dezainfalseshi-zhuang-wojie-ti-suruji-shu&quot;&gt;https://speakerdeck.com/operando/dezainfalseshi-zhuang-wojie-ti-suruji-shu&lt;/a&gt;&lt;/p&gt;
+&lt;ul class=&quot;post-single__tags-list&quot;&gt;
+  &lt;li class=&quot;post-single__tags-list-item&quot;&gt;
+    &lt;a class=&quot;post-single__tags-list-item-link&quot; href=&quot;/tags/android/&quot;&gt;Android&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;post-single__tags-list-item&quot;&gt;
+    &lt;a class=&quot;post-single__tags-list-item-link&quot; href=&quot;/tags/design/&quot;&gt;Design&lt;/a&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;後半のapk引っこ抜くあたりはグレーな気がするけど、adbコマンドでいろいろ出来るってのは勉強になった。&lt;/p&gt;</content:encoded></item></channel></rss>
