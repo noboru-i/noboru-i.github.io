@@ -1,2 +1,0 @@
-webpackJsonp([0xa2868bfb69fc],{382:function(t,o){t.exports={data:{site:{siteMetadata:{title:"Blog by noboru-i",subtitle:"noboru-iのメモ的な何かです。",copyright:"© All rights reserved.",menu:[{label:"Articles",path:"/"},{label:"About me",path:"/about/"},{label:"Contact me",path:"/contact/"}],author:{name:"noboru-i",twitter:"noboru_i",github:"noboru-i",facebook:"noboru.ishikura",rss:"#"}}}},pathContext:{}}}});
-//# sourceMappingURL=path---404-html-eec753affa5a43070dc1.js.map
