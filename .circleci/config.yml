@@ -70,12 +70,6 @@ workflows:
           filters:
             branches:
               only: src
-  test:
-    jobs:
-      - build
-      - create_article:
-          requires:
-            - build
 
   nightly:
     triggers:
