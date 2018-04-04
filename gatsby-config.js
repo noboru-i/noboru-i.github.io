@@ -24,7 +24,7 @@ module.exports = {
       twitter: 'noboru_i',
       github: 'noboru-i',
       facebook: 'noboru.ishikura',
-      rss: '#'
+      rss: 'rss.xml'
     }
   },
   plugins: [
