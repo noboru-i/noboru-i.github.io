@@ -1,7 +1,6 @@
 {
   "version": "1.0.0",
-  "name": "Blog by noboru-i",
-  "private" : true,
+  "name": "Blog",
   "description": "Blog and portfolio site.",
   "main": "n/a",
   "scripts": {
@@ -9,7 +8,8 @@
     "build": "gatsby build",
     "clean:public": "rm -rf public",
     "clean": "npm run clean:public",
-    "lint": "./node_modules/.bin/eslint --cache --ext .js,.jsx --ignore-pattern public .",
+    "lint":
+      "./node_modules/.bin/eslint --cache --ext .js,.jsx --ignore-pattern public .",
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public -b master",
     "fetch_issue": "node script/fetch_issue.js"
