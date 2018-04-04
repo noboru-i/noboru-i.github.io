@@ -11,7 +11,8 @@
     "lint":
       "./node_modules/.bin/eslint --cache --ext .js,.jsx --ignore-pattern public .",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public -b master",
+    "deploy":
+      "gatsby build --prefix-paths && gh-pages -d public -b master -m \"[ci skip]Updates from `git rev-parse HEAD`\"",
     "fetch_issue": "node script/fetch_issue.js"
   },
   "license": "MIT",
