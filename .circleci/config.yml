@@ -84,6 +84,3 @@ workflows:
       - create_article:
           requires:
             - build
-      - deploy:
-          requires:
-            - create_article
