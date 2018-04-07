@@ -1,23 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url> <loc>https://noboru-i.github.io//posts/weekly-news/2018/04/03/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://noboru-i.github.io//tags/android/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://noboru-i.github.io//posts/weekly-news/2018/04/06/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://noboru-i.github.io//tags/ci/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://noboru-i.github.io//tags/設計/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://noboru-i.github.io//tags/teamwork/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://noboru-i.github.io//tags/aws/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://noboru-i.github.io//tags/security/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://noboru-i.github.io//tags/cd/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://noboru-i.github.io//tags/elasticsearch/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://noboru-i.github.io//tags/kibana/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://noboru-i.github.io//tags/design/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://noboru-i.github.io//tags/android/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://noboru-i.github.io//tags/frontend/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://noboru-i.github.io//tags/react/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://noboru-i.github.io//tags/vue-js/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://noboru-i.github.io//tags/aws/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://noboru-i.github.io//tags/elasticsearch/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://noboru-i.github.io//tags/ruby/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://noboru-i.github.io//tags/脆弱性/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://noboru-i.github.io//tags/設計/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://noboru-i.github.io//tags/design/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://noboru-i.github.io//categories/weekly-news/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://noboru-i.github.io//posts/weekly-news/2018/04/06/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://noboru-i.github.io//tags/teamwork/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://noboru-i.github.io//tags/cd/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://noboru-i.github.io//tags/kibana/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://noboru-i.github.io//about</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://noboru-i.github.io//contact</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://noboru-i.github.io//categories/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
