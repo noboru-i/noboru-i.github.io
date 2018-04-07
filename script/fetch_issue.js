@@ -81,6 +81,7 @@ async function convert() {
   }
   const compiled = _.template(template);
   const markdown = compiled({
+    publishedDateTime: publishedDate.format(),
     publishedDate: publishedDate.format('YYYY/MM/DD'),
     tags: _.uniq(
       issueList.reduce((list, issue) => {
