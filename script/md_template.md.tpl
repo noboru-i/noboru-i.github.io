@@ -1,6 +1,6 @@
 ---
 title: Weekly news at <%= publishedDate %>
-date: "2018-04-07T23:46:37.121Z"
+date: "<%= publishedDateTime %>"
 layout: post
 draft: false
 path: "/posts/weekly-news/<%= publishedDate %>/"
