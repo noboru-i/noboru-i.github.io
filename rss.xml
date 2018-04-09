@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by noboru-i]]></title><description><![CDATA[noboru-iのメモ的な何かです。]]></description><link>https://noboru-i.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Sat, 07 Apr 2018 07:00:00 GMT</lastBuildDate><item><title><![CDATA[Weekly news at 2018/04/06]]></title><description><![CDATA[2018/04/06のウィークリーニュース]]></description><link>https://noboru-i.github.io//posts/weekly-news/2018/04/06/</link><guid isPermaLink="false">https://noboru-i.github.io//posts/weekly-news/2018/04/06/</guid><pubDate>Fri, 06 Apr 2018 11:06:10 GMT</pubDate><content:encoded>&lt;h2&gt;コードレビューの機械的な指摘はDangerに任せる - LCL Engineers’ Blog&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by noboru-i]]></title><description><![CDATA[noboru-iのメモ的な何かです。]]></description><link>https://noboru-i.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Mon, 09 Apr 2018 14:21:03 GMT</lastBuildDate><item><title><![CDATA[Weekly news at 2018/04/06]]></title><description><![CDATA[2018/04/06のウィークリーニュース]]></description><link>https://noboru-i.github.io//posts/weekly-news/2018/04/06/</link><guid isPermaLink="false">https://noboru-i.github.io//posts/weekly-news/2018/04/06/</guid><pubDate>Fri, 06 Apr 2018 11:06:10 GMT</pubDate><content:encoded>&lt;h2&gt;コードレビューの機械的な指摘はDangerに任せる - LCL Engineers’ Blog&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;http://techblog.lclco.com/entry/2017/12/29/211627&quot;&gt;http://techblog.lclco.com/entry/2017/12/29/211627&lt;/a&gt;&lt;/p&gt;
 &lt;ul class=&quot;post-single__tags-list&quot;&gt;
   &lt;li class=&quot;post-single__tags-list-item&quot;&gt;
@@ -217,4 +217,29 @@ WEBrickのサーバーを迂闊に公開せず、信用できない値をその�
     &lt;a class=&quot;post-single__tags-list-item-link&quot; href=&quot;/tags/design/&quot;&gt;Design&lt;/a&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;後半のapk引っこ抜くあたりはグレーな気がするけど、adbコマンドでいろいろ出来るってのは勉強になった。&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;後半のapk引っこ抜くあたりはグレーな気がするけど、adbコマンドでいろいろ出来るってのは勉強になった。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[このブログについて]]></title><description><![CDATA[このブログを始めた理由や、書いていく内容、仕組みについて]]></description><link>https://noboru-i.github.io//posts/blog/2018/04/06/</link><guid isPermaLink="false">https://noboru-i.github.io//posts/blog/2018/04/06/</guid><pubDate>Tue, 03 Apr 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;※ 実際に書いているのは2018/4/9ですが。&lt;/p&gt;
+&lt;p&gt;こんにちは。noboru-iです。&lt;/p&gt;
+&lt;p&gt;今回、ポートフォリオサイトを刷新して、&lt;a href=&quot;/about/&quot;&gt;ポートフォリオ&lt;/a&gt;の内容は残しつつ、ブログを全面に押し出したページに置き換えました。&lt;/p&gt;
+&lt;h2&gt;なぜ置き換えたのか&lt;/h2&gt;
+&lt;p&gt;情報の収集と管理は、ずっと課題でした。&lt;/p&gt;
+&lt;p&gt;良いブログ・スライドを読んでも、数日後・数週間後に読み返そうとしたときに、見つからないってことが多々ありました。&lt;/p&gt;
+&lt;p&gt;一時期ははてなブックマークも使っていましたが、次第に使わなくなってしまっていました。&lt;/p&gt;
+&lt;p&gt;再開しても良かったのですが、いくつか試してみたいことがあったり、“自分のコンテンツ”としてメモなどを残したかったので、ブログ形式にしました。&lt;/p&gt;
+&lt;h2&gt;書いていく内容&lt;/h2&gt;
+&lt;p&gt;発信する内容によって、出力先を切り替えていこうと思います。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;完全な技術情報であれば、&lt;a href=&quot;https://qiita.com/noboru_i&quot;&gt;Qiita&lt;/a&gt;に。&lt;/li&gt;
+&lt;li&gt;「勉強会行ってきた」など、技術も含むけどゆるい内容については&lt;a href=&quot;http://noboru.hatenablog.jp/&quot;&gt;Hatena Blog&lt;/a&gt;に。&lt;/li&gt;
+&lt;li&gt;残すまでもない感想・情報については&lt;a href=&quot;https://twitter.com/noboru_i&quot;&gt;Twitter&lt;/a&gt;に。&lt;/li&gt;
+&lt;li&gt;特定の記事・スライドなどのURLに対しての、残したい感想・コメントについてをここに。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;仕組みについて&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://gitpitch.com/noboru-i/slide/gh-pages?p=201804-kzrb&quot; target=&quot;_blank&quot;&gt;スライド&lt;/a&gt;に書きました。&lt;/p&gt;
+&lt;p&gt;ざっくり書くと、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GitHub Issueに固定のフォーマットで記述。&lt;/li&gt;
+&lt;li&gt;毎週1回、CircleCIでMarkdownに整形、GatsbyJSにてビルド。&lt;/li&gt;
+&lt;li&gt;GitHub pagesとして配信。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;といった感じ。&lt;/p&gt;
+&lt;p&gt;GitHub Issueを書くところの障壁を減らしていければ、続けていけるかなーと思っています。&lt;/p&gt;</content:encoded></item></channel></rss>
