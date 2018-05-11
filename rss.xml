@@ -1,4 +1,47 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by noboru-i]]></title><description><![CDATA[noboru-iのメモ的な何かです。]]></description><link>https://noboru-i.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Fri, 04 May 2018 17:02:51 GMT</lastBuildDate><item><title><![CDATA[Weekly news at 2018/05/04]]></title><description><![CDATA[2018/05/04のウィークリーニュース]]></description><link>https://noboru-i.github.io//posts/weekly-news/2018/05/04/</link><guid isPermaLink="false">https://noboru-i.github.io//posts/weekly-news/2018/05/04/</guid><pubDate>Fri, 04 May 2018 17:01:05 GMT</pubDate><content:encoded>&lt;h2&gt;iOSの自動化と仕組み化 ~コードと設計に集中する~ // Speaker Deck&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by noboru-i]]></title><description><![CDATA[noboru-iのメモ的な何かです。]]></description><link>https://noboru-i.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Fri, 11 May 2018 17:03:04 GMT</lastBuildDate><item><title><![CDATA[Weekly news at 2018/05/11]]></title><description><![CDATA[2018/05/11のウィークリーニュース]]></description><link>https://noboru-i.github.io//posts/weekly-news/2018/05/11/</link><guid isPermaLink="false">https://noboru-i.github.io//posts/weekly-news/2018/05/11/</guid><pubDate>Fri, 11 May 2018 17:01:24 GMT</pubDate><content:encoded>&lt;h2&gt;Android App Bundle/Dynamic feature modulesにみるモジュール化の未来 - tomoima525’s blog&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;http://tomoima525.hatenablog.com/entry/2018/05/10/092208&quot;&gt;http://tomoima525.hatenablog.com/entry/2018/05/10/092208&lt;/a&gt;&lt;/p&gt;
+&lt;ul class=&quot;post-single__tags-list&quot;&gt;
+  &lt;li class=&quot;post-single__tags-list-item&quot;&gt;
+    &lt;a class=&quot;post-single__tags-list-item-link&quot; href=&quot;/tags/android/&quot;&gt;Android&lt;/a&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Google I/O 2018で発表された、apkサイズの削減のための仕様をまとめたもの。&lt;/p&gt;
+&lt;p&gt;個人アプリでNDKを使ったものもあるので、これを試してみるのが良さそうです。
+また、Store側の処理になるので、対象となるOSバージョンが広そうなのが良いですね。&lt;/p&gt;
+&lt;p&gt;また、internal testもすぐに公開してくれるのであれば、DeployGateの代わりに出来るかも？ちょっと試してみる必要がありそうですね。&lt;/p&gt;
+&lt;h2&gt;Google I/O Developer Keynote Android開発のまとめ | TechBooster&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://techbooster.org/android/18096/&quot;&gt;https://techbooster.org/android/18096/&lt;/a&gt;&lt;/p&gt;
+&lt;ul class=&quot;post-single__tags-list&quot;&gt;
+  &lt;li class=&quot;post-single__tags-list-item&quot;&gt;
+    &lt;a class=&quot;post-single__tags-list-item-link&quot; href=&quot;/tags/android/&quot;&gt;Android&lt;/a&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Android App Bundle&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;この前、keystoreをPlay consoleにアップロードする仕組みが出来てたけど、これの布石だったのかな。
+たしかに、ダウンロードするapkの中に、他のアーキテクチャ用のバイナリとか必要ないよねー。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Android Jetpack&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;こっちは、AndroidStudioにかなり機能が増えそうな印象。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Android Slices&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;また、Android開発者が覚えるべき知識・機能が増えたのね。。。ぐらいの印象です。&lt;/p&gt;
+&lt;h2&gt;Speaker Deck で最高の URL を生成する技術 - kakakakakku blog&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;http://kakakakakku.hatenablog.com/entry/2018/05/07/003042&quot;&gt;http://kakakakakku.hatenablog.com/entry/2018/05/07/003042&lt;/a&gt;&lt;/p&gt;
+&lt;ul class=&quot;post-single__tags-list&quot;&gt;
+&lt;/ul&gt;
+&lt;p&gt;Speaker DeckのURL発行の仕組みについて。&lt;/p&gt;
+&lt;p&gt;今まで、気にはなっていたけど何もしてなかったので、今度アップロードすることがあれば、意識してやってみようと思います。&lt;/p&gt;
+&lt;h2&gt;mikutterのTwitterコンシューマキーが凍結されました - mikutter blog&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;http://mikutter.hatenablog.com/entry/2018/05/05/164014&quot;&gt;http://mikutter.hatenablog.com/entry/2018/05/05/164014&lt;/a&gt;&lt;/p&gt;
+&lt;ul class=&quot;post-single__tags-list&quot;&gt;
+&lt;/ul&gt;
+&lt;p&gt;Twitterのコンシューマキーが凍結されてしまったので、その後の対応など。
+斜め読みしかしてないですが。。&lt;/p&gt;
+&lt;p&gt;テスト環境用のTwitterアプリを、自分のアカウントで発行したりすることがあったんですが、今後は捨てアカウントとかで取ったほうが安全かもしれませんね。。（マルチアカウントの問題は別途あるかもしれないので、そこは要確認）&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Weekly news at 2018/05/04]]></title><description><![CDATA[2018/05/04のウィークリーニュース]]></description><link>https://noboru-i.github.io//posts/weekly-news/2018/05/04/</link><guid isPermaLink="false">https://noboru-i.github.io//posts/weekly-news/2018/05/04/</guid><pubDate>Fri, 04 May 2018 17:01:05 GMT</pubDate><content:encoded>&lt;h2&gt;iOSの自動化と仕組み化 ~コードと設計に集中する~ // Speaker Deck&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://speakerdeck.com/motokiee/iosfalsezi-dong-hua-toshi-zu-mihua-kodotoshe-ji-niji-zhong-suru&quot;&gt;https://speakerdeck.com/motokiee/iosfalsezi-dong-hua-toshi-zu-mihua-kodotoshe-ji-niji-zhong-suru&lt;/a&gt;&lt;/p&gt;
 &lt;ul class=&quot;post-single__tags-list&quot;&gt;
   &lt;li class=&quot;post-single__tags-list-item&quot;&gt;
