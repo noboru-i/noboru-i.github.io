@@ -13,8 +13,8 @@
       "component---src-templates-page-template-jsx-994fa15cdac2f9049e27.js.map"
     ],
     "path---categories": [
-      "path---categories-fe503936030bcaee302d.js",
-      "path---categories-fe503936030bcaee302d.js.map"
+      "path---categories-08e9aeef9620dcf6df7d.js",
+      "path---categories-08e9aeef9620dcf6df7d.js.map"
     ],
     "path---tags-serverless": [
       "path---tags-serverless-972a013ef005a1c67169.js",
@@ -37,12 +37,16 @@
       "path---tags-kibana-e0080769abc021cbd593.js.map"
     ],
     "path---tags": [
-      "path---tags-72b3917cf8537bbb78f5.js",
-      "path---tags-72b3917cf8537bbb78f5.js.map"
+      "path---tags-b507759834df21fe49ce.js",
+      "path---tags-b507759834df21fe49ce.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
+    ],
+    "path---posts-weekly-news-2018-06-01": [
+      "path---posts-weekly-news-2018-06-01-cc0e19685ca453a78dc2.js",
+      "path---posts-weekly-news-2018-06-01-cc0e19685ca453a78dc2.js.map"
     ],
     "path---tags-design": [
       "path---tags-design-cb4e28bfc42624091b77.js",
@@ -57,8 +61,8 @@
       "path---tags-ci-d2e64e033db5acaf37b5.js.map"
     ],
     "path---categories-weekly-news": [
-      "path---categories-weekly-news-84e98c661fbd96aa8546.js",
-      "path---categories-weekly-news-84e98c661fbd96aa8546.js.map"
+      "path---categories-weekly-news-7074a6d7849271ae9414.js",
+      "path---categories-weekly-news-7074a6d7849271ae9414.js.map"
     ],
     "path---tags-pwa": [
       "path---tags-pwa-6623a7163af969dc5652.js",
@@ -117,8 +121,8 @@
       "component---src-pages-categories-jsx-dc892dc56898ecd4183e.js.map"
     ],
     "path---index": [
-      "path---index-f9e28e22c884d2e54733.js",
-      "path---index-f9e28e22c884d2e54733.js.map"
+      "path---index-b1664d5ce493ba301ab9.js",
+      "path---index-b1664d5ce493ba301ab9.js.map"
     ],
     "path---tags-git-hub": [
       "path---tags-git-hub-6a154156ec0fd73d479d.js",
@@ -129,12 +133,12 @@
       "path---posts-blog-2018-04-06-df62dd4b6346975dfb3c.js.map"
     ],
     "path---tags-設計": [
-      "path---tags-設計-ec2a298d3dd311f637fc.js",
-      "path---tags-設計-ec2a298d3dd311f637fc.js.map"
+      "path---tags-設計-a3818853b85d0d642601.js",
+      "path---tags-設計-a3818853b85d0d642601.js.map"
     ],
     "path---tags-react-native": [
-      "path---tags-react-native-d953682f0e17b093a5f9.js",
-      "path---tags-react-native-d953682f0e17b093a5f9.js.map"
+      "path---tags-react-native-e79d6a5ba21cefdbe062.js",
+      "path---tags-react-native-e79d6a5ba21cefdbe062.js.map"
     ],
     "path---posts-weekly-news-2018-04-20": [
       "path---posts-weekly-news-2018-04-20-42e34adeff63e0218986.js",
@@ -195,8 +199,8 @@
       "path---tags-git-e863463aae4d6fcab3ea.js.map"
     ],
     "app": [
-      "app-532ec2fdbfc92bbd9cf5.js",
-      "app-532ec2fdbfc92bbd9cf5.js.map"
+      "app-3e2ac86e036d8d7c8a5c.js",
+      "app-3e2ac86e036d8d7c8a5c.js.map"
     ],
     "path---tags-infra": [
       "path---tags-infra-e2f077097dfeda61b8ce.js",
@@ -227,8 +231,8 @@
       "path---posts-weekly-news-2018-05-04-d04445125b8bc3348822.js.map"
     ],
     "path---tags-android": [
-      "path---tags-android-70117407d41292b539ad.js",
-      "path---tags-android-70117407d41292b539ad.js.map"
+      "path---tags-android-321aea72eb976a1cf1ee.js",
+      "path---tags-android-321aea72eb976a1cf1ee.js.map"
     ],
     "path---about": [
       "path---about-d1d9776013958ba926b7.js",

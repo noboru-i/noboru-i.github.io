@@ -1,4 +1,42 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by noboru-i]]></title><description><![CDATA[noboru-iのメモ的な何かです。]]></description><link>https://noboru-i.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Fri, 25 May 2018 17:02:47 GMT</lastBuildDate><item><title><![CDATA[Weekly news at 2018/05/25]]></title><description><![CDATA[2018/05/25のウィークリーニュース]]></description><link>https://noboru-i.github.io//posts/weekly-news/2018/05/25/</link><guid isPermaLink="false">https://noboru-i.github.io//posts/weekly-news/2018/05/25/</guid><pubDate>Fri, 25 May 2018 17:01:06 GMT</pubDate><content:encoded>&lt;h2&gt;今日からGDPR施行だけど実は何もしてなかったぜというWEB担当者のために書いた | フジイユウジ::ドットネット&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by noboru-i]]></title><description><![CDATA[noboru-iのメモ的な何かです。]]></description><link>https://noboru-i.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Fri, 01 Jun 2018 17:03:08 GMT</lastBuildDate><item><title><![CDATA[Weekly news at 2018/06/01]]></title><description><![CDATA[2018/06/01のウィークリーニュース]]></description><link>https://noboru-i.github.io//posts/weekly-news/2018/06/01/</link><guid isPermaLink="false">https://noboru-i.github.io//posts/weekly-news/2018/06/01/</guid><pubDate>Fri, 01 Jun 2018 17:01:25 GMT</pubDate><content:encoded>&lt;h2&gt;React NativeをWebに持ってくることの意味 - ナカザンドットネット&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.nkzn.info/entry/2018/05/29/210030&quot;&gt;http://blog.nkzn.info/entry/2018/05/29/210030&lt;/a&gt;&lt;/p&gt;
+&lt;ul class=&quot;post-single__tags-list&quot;&gt;
+  &lt;li class=&quot;post-single__tags-list-item&quot;&gt;
+    &lt;a class=&quot;post-single__tags-list-item-link&quot; href=&quot;/tags/react native/&quot;&gt;React Native&lt;/a&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;React Native for Webとは何なのか、をベースに、ブラウザでのアプリケーション開発の辛さの言語化。&lt;/p&gt;
+&lt;p&gt;個人的には、ReactNativeで書いたアプリを、そのままブラウザでレンダリングしてほしかったけど、そういうものでは無さそう？
+改めて、調べてみよう。&lt;/p&gt;
+&lt;h2&gt;Android Testは“Write once, run everywhere”の夢を見るか？ - Google スライド&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://docs.google.com/presentation/d/1M_WMloMI18MNUYBSx9xHH3HiGktZIcTk4gG1PPfD_mg/edit#slide=id.p&quot;&gt;https://docs.google.com/presentation/d/1M&lt;em&gt;WMloMI18MNUYBSx9xHH3HiGktZIcTk4gG1PPfD&lt;/em&gt;mg/edit#slide=id.p&lt;/a&gt;&lt;/p&gt;
+&lt;ul class=&quot;post-single__tags-list&quot;&gt;
+  &lt;li class=&quot;post-single__tags-list-item&quot;&gt;
+    &lt;a class=&quot;post-single__tags-list-item-link&quot; href=&quot;/tags/android/&quot;&gt;Android&lt;/a&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;高速なテストと、信頼性の高いテストを、同じ記述で実行できるっぽい。良さげ。&lt;/p&gt;
+&lt;h2&gt;ユーザ情報を保存する時のテーブル設計 - そーだいなるらくがき帳&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://soudai.hatenablog.com/entry/2018/05/01/204442&quot;&gt;https://soudai.hatenablog.com/entry/2018/05/01/204442&lt;/a&gt;&lt;/p&gt;
+&lt;ul class=&quot;post-single__tags-list&quot;&gt;
+  &lt;li class=&quot;post-single__tags-list-item&quot;&gt;
+    &lt;a class=&quot;post-single__tags-list-item-link&quot; href=&quot;/tags/設計/&quot;&gt;設計&lt;/a&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;いろんなパターンの詳細情報を持つテーブルの設計方法について、一つの指針。&lt;/p&gt;
+&lt;p&gt;たしかに、usersというidだけを管理するテーブルを作って、 user_detail に情報をもたせるのは良さそう。（ロック周り、あんまり詳しくないけど）&lt;/p&gt;
+&lt;p&gt;ユーザの有効・無効などの状態は悩みどころですよね。
+毎回 JOIN するのも面倒・漏れが出たりするし、管理画面ではそれを除外して全件見たかったり。&lt;/p&gt;
+&lt;h2&gt;【Android】Google IO 2018で新発表された navigation についての詳細レポート - DMM inside&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://inside.dmm.com/entry/2018/05/25/android-navigation&quot;&gt;https://inside.dmm.com/entry/2018/05/25/android-navigation&lt;/a&gt;&lt;/p&gt;
+&lt;ul class=&quot;post-single__tags-list&quot;&gt;
+  &lt;li class=&quot;post-single__tags-list-item&quot;&gt;
+    &lt;a class=&quot;post-single__tags-list-item-link&quot; href=&quot;/tags/android/&quot;&gt;Android&lt;/a&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Architecture Componentに新たに仲間入りした、Navigationについての記事。&lt;/p&gt;
+&lt;p&gt;Fragmentでの画面遷移に悪い思い出しかないけど、もうちょっと安定したら使ってみようかと思います。
+いまのところ、まだalphaですし、不具合が多そうな印象。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Weekly news at 2018/05/25]]></title><description><![CDATA[2018/05/25のウィークリーニュース]]></description><link>https://noboru-i.github.io//posts/weekly-news/2018/05/25/</link><guid isPermaLink="false">https://noboru-i.github.io//posts/weekly-news/2018/05/25/</guid><pubDate>Fri, 25 May 2018 17:01:06 GMT</pubDate><content:encoded>&lt;h2&gt;今日からGDPR施行だけど実は何もしてなかったぜというWEB担当者のために書いた | フジイユウジ::ドットネット&lt;/h2&gt;
 &lt;p&gt;[今日からGDPR施行だけど実は何もしてなかったぜというWEB担当者のために書いた | フジイユウジ::ドットネット](今日からGDPR施行だけど実は何もしてなかったぜというWEB担当者のために書いた | フジイユウジ::ドットネット)&lt;/p&gt;
 &lt;ul class=&quot;post-single__tags-list&quot;&gt;
 &lt;/ul&gt;
