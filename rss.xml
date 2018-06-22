@@ -1,4 +1,47 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by noboru-i]]></title><description><![CDATA[noboru-iのメモ的な何かです。]]></description><link>https://noboru-i.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Fri, 15 Jun 2018 17:02:49 GMT</lastBuildDate><item><title><![CDATA[Weekly news at 2018/06/15]]></title><description><![CDATA[2018/06/15のウィークリーニュース]]></description><link>https://noboru-i.github.io//posts/weekly-news/2018/06/15/</link><guid isPermaLink="false">https://noboru-i.github.io//posts/weekly-news/2018/06/15/</guid><pubDate>Fri, 15 Jun 2018 17:01:19 GMT</pubDate><content:encoded>&lt;h2&gt;データ特性による圧縮されやすいJPEG/PNGファイルの作り方 - hitomedia Tech Blog&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by noboru-i]]></title><description><![CDATA[noboru-iのメモ的な何かです。]]></description><link>https://noboru-i.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Fri, 22 Jun 2018 17:02:58 GMT</lastBuildDate><item><title><![CDATA[Weekly news at 2018/06/22]]></title><description><![CDATA[2018/06/22のウィークリーニュース]]></description><link>https://noboru-i.github.io//posts/weekly-news/2018/06/22/</link><guid isPermaLink="false">https://noboru-i.github.io//posts/weekly-news/2018/06/22/</guid><pubDate>Fri, 22 Jun 2018 17:01:03 GMT</pubDate><content:encoded>&lt;h2&gt;「Dockerによるアプリケーション開発環境構築ガイド」はプロのエンジニア必読の一冊だ（断言） - Lean Baseball&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;http://shinyorke.hatenablog.com/entry/docker&quot;&gt;http://shinyorke.hatenablog.com/entry/docker&lt;/a&gt;&lt;/p&gt;
+&lt;ul class=&quot;post-single__tags-list&quot;&gt;
+  &lt;li class=&quot;post-single__tags-list-item&quot;&gt;
+    &lt;a class=&quot;post-single__tags-list-item-link&quot; href=&quot;/tags/docker/&quot;&gt;Docker&lt;/a&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Docker本の紹介。&lt;/p&gt;
+&lt;p&gt;最近、Dockerをちょっと触ったけど、なんとなく使うことはできても、いまいち理解しきれてない感じなので、そのうち読んで見る。&lt;/p&gt;
+&lt;h2&gt;Introducing Zeplin 2.0 — Components and a ton more goodies&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.zeplin.io/introducing-zeplin-2-0-components-and-a-ton-more-goodies-7c09dacc1f48&quot;&gt;https://blog.zeplin.io/introducing-zeplin-2-0-components-and-a-ton-more-goodies-7c09dacc1f48&lt;/a&gt;&lt;/p&gt;
+&lt;ul class=&quot;post-single__tags-list&quot;&gt;
+  &lt;li class=&quot;post-single__tags-list-item&quot;&gt;
+    &lt;a class=&quot;post-single__tags-list-item-link&quot; href=&quot;/tags/design/&quot;&gt;Design&lt;/a&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Zeplinがバージョン2になって、コンポーネントベースでのデザインとの親和性が高くなった。&lt;/p&gt;
+&lt;p&gt;貼ってあるgifアニメを見たら、
+・カンプからコンポーネントへの遷移
+・コンポーネントから、利用されているカンプがわかる
+とか、良さげ。&lt;/p&gt;
+&lt;h2&gt;いつ ReactNative を使っても大丈夫か - mizchi’s blog&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;http://mizchi.hatenablog.com/entry/2018/06/20/115539&quot;&gt;http://mizchi.hatenablog.com/entry/2018/06/20/115539&lt;/a&gt;&lt;/p&gt;
+&lt;ul class=&quot;post-single__tags-list&quot;&gt;
+  &lt;li class=&quot;post-single__tags-list-item&quot;&gt;
+    &lt;a class=&quot;post-single__tags-list-item-link&quot; href=&quot;/tags/react native/&quot;&gt;React Native&lt;/a&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;mizchiさんの考える、ReactNative採用可否フローチャート。&lt;/p&gt;
+&lt;p&gt;Expo未経験なので、それでどこまで楽になるんだろう？というのは未知数ですが、全体的には同意。&lt;/p&gt;
+&lt;p&gt;極論、Webサイトをそのままアプリ化するのであればRNを使えそう、という域を超えない印象。
+（アプリらしさとかを考えると辛そう、みたいな。）&lt;/p&gt;
+&lt;h2&gt;iOSの11.3からのPWA対応でできるようになったこと – Takeshi Amano – Medium&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://medium.com/@takeshiamano/ios%E3%81%AE11-3%E3%81%8B%E3%82%89%E3%81%AEpwa%E5%AF%BE%E5%BF%9C%E3%81%A7%E3%81%A7%E3%81%8D%E3%82%8B%E3%82%88%E3%81%86%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%9F%E3%81%93%E3%81%A8-313f638a172b&quot;&gt;https://medium.com/@takeshiamano/ios%E3%81%AE11-3%E3%81%8B%E3%82%89%E3%81%AEpwa%E5%AF%BE%E5%BF%9C%E3%81%A7%E3%81%A7%E3%81%8D%E3%82%8B%E3%82%88%E3%81%86%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%9F%E3%81%93%E3%81%A8-313f638a172b&lt;/a&gt;&lt;/p&gt;
+&lt;ul class=&quot;post-single__tags-list&quot;&gt;
+  &lt;li class=&quot;post-single__tags-list-item&quot;&gt;
+    &lt;a class=&quot;post-single__tags-list-item-link&quot; href=&quot;/tags/pwa/&quot;&gt;PWA&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;post-single__tags-list-item&quot;&gt;
+    &lt;a class=&quot;post-single__tags-list-item-link&quot; href=&quot;/tags/ios/&quot;&gt;iOS&lt;/a&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;最新のiOSにて、PWA的な出来ることのまとめ。&lt;/p&gt;
+&lt;p&gt;iOSとAndroidでの差も書いてあり、実装時には一通り確認したほうが良さそう。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Weekly news at 2018/06/15]]></title><description><![CDATA[2018/06/15のウィークリーニュース]]></description><link>https://noboru-i.github.io//posts/weekly-news/2018/06/15/</link><guid isPermaLink="false">https://noboru-i.github.io//posts/weekly-news/2018/06/15/</guid><pubDate>Fri, 15 Jun 2018 17:01:19 GMT</pubDate><content:encoded>&lt;h2&gt;データ特性による圧縮されやすいJPEG/PNGファイルの作り方 - hitomedia Tech Blog&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;http://tech.hitomedia.jp/entry/2018/06/08/200816&quot;&gt;http://tech.hitomedia.jp/entry/2018/06/08/200816&lt;/a&gt;&lt;/p&gt;
 &lt;ul class=&quot;post-single__tags-list&quot;&gt;
   &lt;li class=&quot;post-single__tags-list-item&quot;&gt;
