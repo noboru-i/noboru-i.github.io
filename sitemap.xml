@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url> <loc>https://noboru-i.github.io//posts/blog/2018/04/06/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://noboru-i.github.io//categories/blog/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://noboru-i.github.io//about</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://noboru-i.github.io//posts/weekly-news/2018/04/06/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://noboru-i.github.io//tags/ci/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://noboru-i.github.io//tags/設計/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -17,6 +20,7 @@
 <url> <loc>https://noboru-i.github.io//tags/ruby/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://noboru-i.github.io//tags/脆弱性/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://noboru-i.github.io//categories/weekly-news/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://noboru-i.github.io//contact</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://noboru-i.github.io//posts/weekly-news/2018/04/13/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://noboru-i.github.io//tags/git/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://noboru-i.github.io//tags/shell/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -32,8 +36,8 @@
 <url> <loc>https://noboru-i.github.io//tags/i-os/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://noboru-i.github.io//tags/firebase/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://noboru-i.github.io//posts/weekly-news/2018/04/27/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://noboru-i.github.io//posts/weekly-news/2018/05/04/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://noboru-i.github.io//posts/weekly-news/2018/05/11/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://noboru-i.github.io//posts/weekly-news/2018/05/04/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://noboru-i.github.io//posts/weekly-news/2018/05/18/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://noboru-i.github.io//tags/分散システム/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://noboru-i.github.io//posts/weekly-news/2018/05/25/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -45,10 +49,7 @@
 <url> <loc>https://noboru-i.github.io//tags/io-t/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://noboru-i.github.io//posts/weekly-news/2018/06/15/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://noboru-i.github.io//posts/weekly-news/2018/06/22/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://noboru-i.github.io//posts/blog/2018/04/06/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://noboru-i.github.io//categories/blog/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://noboru-i.github.io//about</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://noboru-i.github.io//contact</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://noboru-i.github.io//posts/weekly-news/2018/07/13/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://noboru-i.github.io//categories/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://noboru-i.github.io//</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://noboru-i.github.io//tags/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>

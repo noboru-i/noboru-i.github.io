@@ -1,4 +1,78 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by noboru-i]]></title><description><![CDATA[noboru-iのメモ的な何かです。]]></description><link>https://noboru-i.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Fri, 22 Jun 2018 17:02:58 GMT</lastBuildDate><item><title><![CDATA[Weekly news at 2018/06/22]]></title><description><![CDATA[2018/06/22のウィークリーニュース]]></description><link>https://noboru-i.github.io//posts/weekly-news/2018/06/22/</link><guid isPermaLink="false">https://noboru-i.github.io//posts/weekly-news/2018/06/22/</guid><pubDate>Fri, 22 Jun 2018 17:01:03 GMT</pubDate><content:encoded>&lt;h2&gt;「Dockerによるアプリケーション開発環境構築ガイド」はプロのエンジニア必読の一冊だ（断言） - Lean Baseball&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by noboru-i]]></title><description><![CDATA[noboru-iのメモ的な何かです。]]></description><link>https://noboru-i.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Fri, 13 Jul 2018 17:02:56 GMT</lastBuildDate><item><title><![CDATA[Weekly news at 2018/07/13]]></title><description><![CDATA[2018/07/13のウィークリーニュース]]></description><link>https://noboru-i.github.io//posts/weekly-news/2018/07/13/</link><guid isPermaLink="false">https://noboru-i.github.io//posts/weekly-news/2018/07/13/</guid><pubDate>Fri, 13 Jul 2018 17:01:08 GMT</pubDate><content:encoded>&lt;h2&gt;React Nativeハイブリッドアプリへの挑戦 ~Part1: Monorepo/CI~ - Quipper Product Team Blog&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://quipper.hatenablog.com/entry/2018/07/02/080000&quot;&gt;https://quipper.hatenablog.com/entry/2018/07/02/080000&lt;/a&gt;&lt;/p&gt;
+&lt;ul class=&quot;post-single__tags-list&quot;&gt;
+  &lt;li class=&quot;post-single__tags-list-item&quot;&gt;
+    &lt;a class=&quot;post-single__tags-list-item-link&quot; href=&quot;/tags/react native/&quot;&gt;React Native&lt;/a&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;AirbnbがReact Nativeやめた記事を書いたことで発生した、カウンター記事の一つ。（だと思ってます）&lt;/p&gt;
+&lt;p&gt;これだけ話を聞くということは、それなりに運用事例があるはずなので、こういった記事が出てくることはありがたい。&lt;/p&gt;
+&lt;p&gt;Quipperは、iOS/Androidのネイティブアプリから、徐々にReactNativeを導入していっているらしい。
+こういった判断も出てくるだろうし、逆にReactNativeからネイティブを徐々に増やしていくこともあるだろうから、こういった記事はありがたい。&lt;/p&gt;
+&lt;h2&gt;メルカリJP初のiOSリアーキテクチャは、なぜ「最高に楽しい」のか - mercan（メルカン）&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://mercan.mercari.com/entry/2018/07/02/170000&quot;&gt;https://mercan.mercari.com/entry/2018/07/02/170000&lt;/a&gt;&lt;/p&gt;
+&lt;ul class=&quot;post-single__tags-list&quot;&gt;
+  &lt;li class=&quot;post-single__tags-list-item&quot;&gt;
+    &lt;a class=&quot;post-single__tags-list-item-link&quot; href=&quot;/tags/ios/&quot;&gt;iOS&lt;/a&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;メルカリがiOSの技術的負債を解消していっているはなし。&lt;/p&gt;
+&lt;p&gt;1つのアプリを100人で開発する未来、とか想像がつかない。。。
+また、開発をしている人もいる状態でリアーキテクチャをしていくのは大変だろうに、それを淡々とやっているように見えるのはすごい。&lt;/p&gt;
+&lt;p&gt;ちょっと規模がでかすぎて参考にならないかもしれないけど、一定の結果が出た時点でカンファレンスでの発表などもあるだろうから、注視していこう。&lt;/p&gt;
+&lt;p&gt;どうでもいいですが、曲面ディスプレイいいなぁ。。&lt;/p&gt;
+&lt;h2&gt;MongoDB Moblie発表。フル機能のMongoDBがiOS/Androidに対応、サーバのMongoDBとのデータ同期も可能に － Publickey&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.publickey1.jp/blog/18/mongodb_mobliemongodbiosandroidmongodb.html&quot;&gt;https://www.publickey1.jp/blog/18/mongodb_mobliemongodbiosandroidmongodb.html&lt;/a&gt;&lt;/p&gt;
+&lt;ul class=&quot;post-single__tags-list&quot;&gt;
+  &lt;li class=&quot;post-single__tags-list-item&quot;&gt;
+    &lt;a class=&quot;post-single__tags-list-item-link&quot; href=&quot;/tags/serverless/&quot;&gt;Serverless&lt;/a&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;MongoDBをAndroid/iOSのローカルで動かせるようになった、とのこと。
+また、「MongoDB Stitch」を使うことで、サーバとローカルのMongoDBを同期できるとのこと。&lt;/p&gt;
+&lt;p&gt;Firebase Realtime Databaseのように使えるイメージですかね？&lt;/p&gt;
+&lt;p&gt;MongoDBは、障害耐性だったか何かを考慮すると3インスタンス以上必要、みたいな話を聞いて、小規模だったら使えないかなーと思ってましたが、MongoDB Stitchみたいなサービスが出て、ローカルのDBとも同期できるんだったら、ちょっと興味が出てきましたね。
+Firebase周りのツールとの差異は調べてみたいですね。&lt;/p&gt;
+&lt;h2&gt;AndroidのCI時間を10分短縮し、開発を爆速にするためのKarakuriを作った話 - Mercari Engineering Blog&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://tech.mercari.com/entry/2018/07/04/110000&quot;&gt;https://tech.mercari.com/entry/2018/07/04/110000&lt;/a&gt;&lt;/p&gt;
+&lt;ul class=&quot;post-single__tags-list&quot;&gt;
+  &lt;li class=&quot;post-single__tags-list-item&quot;&gt;
+    &lt;a class=&quot;post-single__tags-list-item-link&quot; href=&quot;/tags/android/&quot;&gt;Android&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;post-single__tags-list-item&quot;&gt;
+    &lt;a class=&quot;post-single__tags-list-item-link&quot; href=&quot;/tags/cd/&quot;&gt;CD&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;post-single__tags-list-item&quot;&gt;
+    &lt;a class=&quot;post-single__tags-list-item-link&quot; href=&quot;/tags/ci/&quot;&gt;CI&lt;/a&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Androidアプリ開発周りのいろいろを、CircleCI 2.0を利用して改善している話。&lt;/p&gt;
+&lt;p&gt;個人的には、私の作ったライブラリがメルカリで使われてるっぽいのがうれしかったです。&lt;/p&gt;
+&lt;p&gt;やってることの多くは、弊社でもやってることが多かったです。
+ただ、Androidでのfastlaneはあまりやったことが無いので、今度試してみようと思います。&lt;/p&gt;
+&lt;h2&gt;フロントエンドの「想定外」に対応する考え方とTipsいくつか | ダーシマ・ヱンヂニヤリング&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://necomesi.jp/blog/tsmd/posts/229&quot;&gt;https://necomesi.jp/blog/tsmd/posts/229&lt;/a&gt;&lt;/p&gt;
+&lt;ul class=&quot;post-single__tags-list&quot;&gt;
+  &lt;li class=&quot;post-single__tags-list-item&quot;&gt;
+    &lt;a class=&quot;post-single__tags-list-item-link&quot; href=&quot;/tags/frontend/&quot;&gt;Frontend&lt;/a&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Cookie無効の場合にも見れるサイトにしましょう、という話。&lt;/p&gt;
+&lt;p&gt;まぁ、できることならやるに越したことはないけど、その作業をやる工数に見合うものなのか？は考えたほうがいいかなーと思いました。
+remで実装する、などは最初から考慮しておけばいいだけなので、やるべきですかね。たぶん。&lt;/p&gt;
+&lt;p&gt;あとは、受託でやる場合は、要件で詰めておく必要がありそうですね。
+「JavaScriptが切られた場合、何も動かないですけど良いですよね？」みたいな。（極論だけど。。&lt;/p&gt;
+&lt;h2&gt;DMM動画サービスの問題を解決しようとしている話（スタイルガイド編） - DMM inside&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://inside.dmm.com/entry/2018/07/05/styleguide&quot;&gt;https://inside.dmm.com/entry/2018/07/05/styleguide&lt;/a&gt;&lt;/p&gt;
+&lt;ul class=&quot;post-single__tags-list&quot;&gt;
+  &lt;li class=&quot;post-single__tags-list-item&quot;&gt;
+    &lt;a class=&quot;post-single__tags-list-item-link&quot; href=&quot;/tags/design/&quot;&gt;Design&lt;/a&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;継続的な開発により、ばらばらになってしまったデザインを統一していく話。&lt;/p&gt;
+&lt;p&gt;個人的には、新規案件に入ることの方が多いので、ここまで大規模になることは少ないかな。
+とはいえ、数ヶ月運用するだけでもバラバラになりがちなので、UIインベントリを作っていくのは良さそう。
+Atomic Design本も読んだので、それも参考にしたい。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Weekly news at 2018/06/22]]></title><description><![CDATA[2018/06/22のウィークリーニュース]]></description><link>https://noboru-i.github.io//posts/weekly-news/2018/06/22/</link><guid isPermaLink="false">https://noboru-i.github.io//posts/weekly-news/2018/06/22/</guid><pubDate>Fri, 22 Jun 2018 17:01:03 GMT</pubDate><content:encoded>&lt;h2&gt;「Dockerによるアプリケーション開発環境構築ガイド」はプロのエンジニア必読の一冊だ（断言） - Lean Baseball&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;http://shinyorke.hatenablog.com/entry/docker&quot;&gt;http://shinyorke.hatenablog.com/entry/docker&lt;/a&gt;&lt;/p&gt;
 &lt;ul class=&quot;post-single__tags-list&quot;&gt;
   &lt;li class=&quot;post-single__tags-list-item&quot;&gt;
