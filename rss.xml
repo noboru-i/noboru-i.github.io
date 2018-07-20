@@ -1,4 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by noboru-i]]></title><description><![CDATA[noboru-iのメモ的な何かです。]]></description><link>https://noboru-i.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Fri, 13 Jul 2018 17:02:56 GMT</lastBuildDate><item><title><![CDATA[Weekly news at 2018/07/13]]></title><description><![CDATA[2018/07/13のウィークリーニュース]]></description><link>https://noboru-i.github.io//posts/weekly-news/2018/07/13/</link><guid isPermaLink="false">https://noboru-i.github.io//posts/weekly-news/2018/07/13/</guid><pubDate>Fri, 13 Jul 2018 17:01:08 GMT</pubDate><content:encoded>&lt;h2&gt;React Nativeハイブリッドアプリへの挑戦 ~Part1: Monorepo/CI~ - Quipper Product Team Blog&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by noboru-i]]></title><description><![CDATA[noboru-iのメモ的な何かです。]]></description><link>https://noboru-i.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Fri, 20 Jul 2018 17:03:03 GMT</lastBuildDate><item><title><![CDATA[Weekly news at 2018/07/20]]></title><description><![CDATA[2018/07/20のウィークリーニュース]]></description><link>https://noboru-i.github.io//posts/weekly-news/2018/07/20/</link><guid isPermaLink="false">https://noboru-i.github.io//posts/weekly-news/2018/07/20/</guid><pubDate>Fri, 20 Jul 2018 17:01:24 GMT</pubDate><content:encoded>&lt;h2&gt;【速報】全てのS3ユーザ必見！S3の性能が大幅パワーアップ！面倒なアレが不要に！ ｜ Developers.IO&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://dev.classmethod.jp/cloud/aws/amazon-s3-announces-increased-request-rate-performance/&quot;&gt;https://dev.classmethod.jp/cloud/aws/amazon-s3-announces-increased-request-rate-performance/&lt;/a&gt;&lt;/p&gt;
+&lt;ul class=&quot;post-single__tags-list&quot;&gt;
+  &lt;li class=&quot;post-single__tags-list-item&quot;&gt;
+    &lt;a class=&quot;post-single__tags-list-item-link&quot; href=&quot;/tags/aws/&quot;&gt;AWS&lt;/a&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;S3のアップデートがニューヨークで発表された。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;パフォーマンス向上の為のキー名の工夫が不要に&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;という部分が、以前の知識だといらんことをしてしまうので、知識をアップデートしておこう。&lt;/p&gt;
+&lt;h2&gt;React Native for Webをプロダクションで使ってみました - WaterCell Developer’s Blog&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://watercelldev.hatenablog.jp/entry/2018/07/18/122604&quot;&gt;https://watercelldev.hatenablog.jp/entry/2018/07/18/122604&lt;/a&gt;&lt;/p&gt;
+&lt;ul class=&quot;post-single__tags-list&quot;&gt;
+  &lt;li class=&quot;post-single__tags-list-item&quot;&gt;
+    &lt;a class=&quot;post-single__tags-list-item-link&quot; href=&quot;/tags/frontend/&quot;&gt;Frontend&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;post-single__tags-list-item&quot;&gt;
+    &lt;a class=&quot;post-single__tags-list-item-link&quot; href=&quot;/tags/react native/&quot;&gt;React Native&lt;/a&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;ウォーターセルさんの、ReactNative for Webの事例。
+全環境を統一したい、って要望はたしかにあんまり無いけど、7, 8割のコードが共通化出来たってのはすごい。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Weekly news at 2018/07/13]]></title><description><![CDATA[2018/07/13のウィークリーニュース]]></description><link>https://noboru-i.github.io//posts/weekly-news/2018/07/13/</link><guid isPermaLink="false">https://noboru-i.github.io//posts/weekly-news/2018/07/13/</guid><pubDate>Fri, 13 Jul 2018 17:01:08 GMT</pubDate><content:encoded>&lt;h2&gt;React Nativeハイブリッドアプリへの挑戦 ~Part1: Monorepo/CI~ - Quipper Product Team Blog&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://quipper.hatenablog.com/entry/2018/07/02/080000&quot;&gt;https://quipper.hatenablog.com/entry/2018/07/02/080000&lt;/a&gt;&lt;/p&gt;
 &lt;ul class=&quot;post-single__tags-list&quot;&gt;
   &lt;li class=&quot;post-single__tags-list-item&quot;&gt;
